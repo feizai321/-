@@ -1,0 +1,77 @@
+# Frozen model weights. Total = 1.00 for every model.
+# Feature order:
+# context_xgxga, opportunity_creation, opportunity_quality,
+# finishing_residual, opportunity_suppression, goalkeeper,
+# tempo_game_state, set_piece, lineup_strength, home_away,
+# rest_travel, recent_trend
+
+models:
+  A_balanced:
+    context_xgxga: 0.22
+    opportunity_creation: 0.09
+    opportunity_quality: 0.07
+    finishing_residual: 0.03
+    opportunity_suppression: 0.14
+    goalkeeper: 0.04
+    tempo_game_state: 0.13
+    set_piece: 0.07
+    lineup_strength: 0.08
+    home_away: 0.04
+    rest_travel: 0.04
+    recent_trend: 0.05
+
+  B_xg_core:
+    context_xgxga: 0.30
+    opportunity_creation: 0.08
+    opportunity_quality: 0.06
+    finishing_residual: 0.02
+    opportunity_suppression: 0.15
+    goalkeeper: 0.04
+    tempo_game_state: 0.10
+    set_piece: 0.06
+    lineup_strength: 0.07
+    home_away: 0.03
+    rest_travel: 0.03
+    recent_trend: 0.06
+
+  C_tempo_tactical:
+    context_xgxga: 0.20
+    opportunity_creation: 0.08
+    opportunity_quality: 0.06
+    finishing_residual: 0.02
+    opportunity_suppression: 0.13
+    goalkeeper: 0.03
+    tempo_game_state: 0.18
+    set_piece: 0.08
+    lineup_strength: 0.10
+    home_away: 0.03
+    rest_travel: 0.04
+    recent_trend: 0.05
+
+  D_lineup_context:
+    context_xgxga: 0.21
+    opportunity_creation: 0.09
+    opportunity_quality: 0.06
+    finishing_residual: 0.02
+    opportunity_suppression: 0.13
+    goalkeeper: 0.04
+    tempo_game_state: 0.11
+    set_piece: 0.07
+    lineup_strength: 0.15
+    home_away: 0.04
+    rest_travel: 0.05
+    recent_trend: 0.03
+
+  E_conservative:
+    context_xgxga: 0.27
+    opportunity_creation: 0.06
+    opportunity_quality: 0.04
+    finishing_residual: 0.01
+    opportunity_suppression: 0.18
+    goalkeeper: 0.05
+    tempo_game_state: 0.11
+    set_piece: 0.08
+    lineup_strength: 0.06
+    home_away: 0.04
+    rest_travel: 0.04
+    recent_trend: 0.06
